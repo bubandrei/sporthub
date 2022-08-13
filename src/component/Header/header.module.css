@@ -1,0 +1,10 @@
+.backImage {
+  background-image: url(../../assets/image/1.png);
+  max-width: 1920px;
+  height: 580px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
