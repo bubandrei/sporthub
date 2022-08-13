@@ -1,16 +1,58 @@
-/* .container {
-  max-width: 1920px;
-  max-height: 580px;
-  position: relative;
-} */
+._container {
+  max-width: 1320px;
+  margin: 0px auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.firstLetter {
+  width: 88px;
+  height: 20px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #f01b0d;
 
-.backImage {
-  background-image: url(../../assets/image/1.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  transform: matrix(0.98, 0, -0.19, 1, 0, 0);
+}
+.secondLetter {
+  width: 88px;
+  height: 20px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  transform: matrix(0.98, 0, -0.19, 1, 0, 0);
+}
+.headerMenu{
+
+}
+.menuClass{
+
+}
+.menuItem{
+
 }
