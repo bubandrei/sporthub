@@ -64,7 +64,7 @@ ul {
   align-items: center;
 }
 .menuItem {
-    margin: 0px 50px 0px 0px;
+  margin: 0px 50px 0px 0px;
 }
 .menuLink {
   width: 46px;
@@ -89,11 +89,38 @@ ul {
   flex-grow: 0;
 }
 
-@media (max-width:767px) {
-    .burger{
-        display: none;
-    }
-    .menuItem{
-        margin: 0px 50px 0px 0px;
-      }
+@media (max-width: 767px) {
+  .burger {
+    display: none;
+  }
+  .menuItem {
+    margin: 0px 50px 0px 0px;
+  }
+}
+.content {
+  position: absolute;
+  padding-left: 330px;
+  top: 249px;
+}
+.topContent {
+  width: 71px;
+  height: 14px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.bottomContent {
+  width: 640px;
+  height: 109px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 112%;
 }
