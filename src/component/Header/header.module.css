@@ -1,29 +1,31 @@
 ._container {
-  max-width: 1320px;
+  max-width: 1350px;
   margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
 }
-.wrap{
-    display: flex;
-    min-height: 100px;
-    align-items: center;
+.wrap {
+  display: flex;
+  min-height: 100px;
+  align-items: center;
 }
-header{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 50;
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
-ul{
-    margin-left: 0px;
-    padding-left: 0px;
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 .firstLetter {
   width: 88px;
@@ -52,39 +54,38 @@ ul{
 
   transform: matrix(0.98, 0, -0.19, 1, 0, 0);
 }
-.headerMenu{
-margin: 0px 0px 0px 555px;
+.headerMenu {
+  margin: 0px 0px 0px 555px;
 }
-.menuClass{
-display: flex;
-
+.menuClass {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
 }
-.menuItem{
-
+.menuItem {
 }
-.menuItem:not(:last-child){
-    margin: 0px 50px 0px 0px;
+.menuItem:not(:last-child) {
+  margin: 0px 50px 0px 0px;
 }
-.menuLink{
-    width: 46px;
-height: 14px;
+.menuLink {
+  width: 46px;
+  height: 14px;
 
-font-family: 'Roboto Flex';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 116%;
-/* identical to box height */
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 116%;
+  /* identical to box height */
 
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: black;
-/* color: #FFFFFF; */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: black;
+  /* color: #FFFFFF; */
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
