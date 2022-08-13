@@ -1,7 +1,15 @@
+/* .container {
+  max-width: 1920px;
+  max-height: 580px;
+  position: relative;
+} */
+
 .backImage {
   background-image: url(../../assets/image/1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
   max-width: 1920px;
-  height: 580px;
+  max-height: 580px;
   position: absolute;
   left: 0px;
   right: 0px;
