@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={style.wrapper}>
       <header>
-        <div className={style._container}>
+        <div className={`${style._container} ${style.wrap}`}>
           <a href="#">
             <span className={style.firstLetter}>sport</span>
             <span className={style.secondLetter}>hub</span>
@@ -16,29 +16,28 @@ const Header = () => {
               <li className={style.menuItem}>
                 <a href="#" className={style.menuLink}>Review</a>
               </li>
-              <li>
+              <li className={style.menuItem}>
                 <a href="#" className={style.menuLink}>Экстрим</a>
               </li>
-              <li>
+              <li className={style.menuItem}>
                 <a href="#" className={style.menuLink}>Легенды</a>
               </li>
-              <li>
+              <li className={style.menuItem}>
                 <a href="#" className={style.menuLink}>зож и туризм</a>
               </li>
-              <li>
+              <li className={style.menuItem}>
                 <a href="#"  className={style.menuLink}>Позірк</a>
               </li>
-              <li>
+              <li className={style.menuItem}>
                 <a href="#" className={style.menuLink}>Треш</a>
               </li>
-              <li>
-                <a href="#" className={style.menuLink}></a>
+              <li className={style.menuItem}>
+                <a href="#" className={style.menuLink}>#######</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      ghbdtn
     </div>
   );
 };
