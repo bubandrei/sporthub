@@ -59,13 +59,12 @@ ul {
 }
 .menuClass {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   min-height: 100px;
+  align-items: center;
 }
 .menuItem {
-}
-.menuItem:not(:last-child) {
-  margin: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
 }
 .menuLink {
   width: 46px;
@@ -88,4 +87,13 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+@media (max-width:767px) {
+    .burger{
+        display: none;
+    }
+    .menuItem{
+        margin: 0px 50px 0px 0px;
+      }
 }

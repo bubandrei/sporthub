@@ -14,30 +14,34 @@ const Header = () => {
           <nav className={style.headerMenu}>
             <ul className={style.menuClass}>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>Review</a>
+                <a href="#" className={`${style.menuLink} ${style.burger}`}>Review</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>Экстрим</a>
+                <a href="#" className={`${style.menuLink} ${style.burger}`}>Экстрим</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>Легенды</a>
+                <a href="#" className={`${style.menuLink} ${style.burger}`}>Легенды</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>зож и туризм</a>
+                <a href="#" className={`${style.menuLink} ${style.burger}`}>зож и туризм</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#"  className={style.menuLink}>Позірк</a>
+                <a href="#"  className={`${style.menuLink} ${style.burger}`}>Позірк</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>Треш</a>
+                <a href="#" className={`${style.menuLink} ${style.burger}`}>Треш</a>
               </li>
               <li className={style.menuItem}>
-                <a href="#" className={style.menuLink}>#######</a>
+                <a href="#" className={`${style.menuLink}`}>#######</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
     </div>
   );
 };
