@@ -6,8 +6,9 @@
 }
 .wrap {
   display: flex;
-  min-height: 100px;
+  min-height: 70px;
   align-items: center;
+  margin-left: 300px;
 }
 header {
   position: absolute;
@@ -60,7 +61,7 @@ ul {
 .menuClass {
   display: flex;
   /* flex-wrap: wrap; */
-  min-height: 100px;
+  min-height: 14px;
   align-items: center;
 }
 .menuItem {
@@ -79,9 +80,8 @@ ul {
 
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: black;
   /* color: #FFFFFF; */
-
+color: black;
   /* Inside auto layout */
 
   flex: none;
@@ -90,6 +90,12 @@ ul {
 }
 
 @media (max-width: 767px) {
+    ._container {
+        max-width: 767px;
+        margin: 0px auto;
+        padding: 0px 15px;
+        box-sizing: content-box;
+      }
   .burger {
     display: none;
   }
@@ -101,6 +107,7 @@ ul {
   position: absolute;
   padding-left: 330px;
   top: 249px;
+  z-index: 2;
 }
 .topContent {
   width: 71px;
@@ -110,6 +117,7 @@ ul {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  color: #ffffff;
   /* identical to box height */
 
   letter-spacing: 0.05em;
@@ -123,4 +131,23 @@ ul {
   font-weight: 700;
   font-size: 40px;
   line-height: 112%;
+  color: #ffffff;
+}
+.ibg{
+    position: relative;
+}
+.ibg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.blockImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }

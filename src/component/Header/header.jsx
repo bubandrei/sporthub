@@ -56,6 +56,9 @@ const Header = () => {
         <div className={style.topContent}>#Экстрим</div>
         <div className={style.bottomContent}>Юрий Поклад: «Динамо» как бы начинает работать заново</div>
       </div>
+      {/* <div className={style.blockImg}>
+        <img src={image1}/>
+      </div> */}
     </div>
   );
 };
