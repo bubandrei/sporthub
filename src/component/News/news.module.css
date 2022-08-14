@@ -1,0 +1,71 @@
+.wrap {
+  max-width: 1400px;
+  padding: 0px 15px;
+  margin: 80px auto;
+}
+.people {
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.man {
+  box-sizing: border-box;
+  width: 300px;
+  height: 289px;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgFoto {
+    position: relative;
+}
+.name {
+  width: 209px;
+  height: 21px;
+  margin: 14px 0px 6px 0px;
+  left: calc(50% - 209px / 2 - 7.5px);
+  top: 134px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.prof {
+  width: 188px;
+  height: 13px;
+  left: calc(50% - 188px / 2 - 7px);
+  top: 161px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.text {
+  height: 75px;
+  left: 0px;
+  right: 0px;
+  top: 194px;
+  margin: 20px 0px 80px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.icon{
+    position: absolute;
+    left: -30%;
+
+}
