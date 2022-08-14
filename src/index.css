@@ -122,6 +122,6 @@ legend {
   display: block;
 }
 body{
-    background-color: silver;
+    /* background-color: silver; */
     font-family: "Roboto Flex";
 }

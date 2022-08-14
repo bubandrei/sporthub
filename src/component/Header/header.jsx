@@ -1,10 +1,13 @@
 import React from "react";
 import style from "./header.module.css";
 import logo from "../../assets/image/logo.png";
+import background from "../../assets/image/1.png"
 
 const Header = () => {
   return (
     <div>
+ 
+      <section className={style.home}>
       <header className={style.header}>
         <div className={style._container}>
           <div className={style.header_row}>
@@ -39,14 +42,16 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <section className={style.home}>
-        <div className={style._container}>
+        <div className={style.container}>
           <div className={style.homeContent}>
             <p className={style.homeHead}>#Экстрим</p>
             <p className={style.homeText}>
               Юрий Поклад: «Динамо» как бы начинает работать заново
             </p>
           </div>
+        </div>
+        <div className={style.home_bg_img}>
+          <img src={background} className={style.imgBack} alt="" />
         </div>
       </section>
     </div>
