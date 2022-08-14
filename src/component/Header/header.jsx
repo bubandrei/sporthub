@@ -39,6 +39,16 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <section className={style.home}>
+        <div className={style._container}>
+          <div className={style.homeContent}>
+            <p className={style.homeHead}>#Экстрим</p>
+            <p className={style.homeText}>
+              Юрий Поклад: «Динамо» как бы начинает работать заново
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
