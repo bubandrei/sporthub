@@ -51,7 +51,7 @@
 }
 .titleContent {
   max-width: 640px;
-  height: 64px;
+  /* height: 64px; */
   margin: 10px 0px;
   font-style: normal;
   font-weight: 700;
@@ -78,7 +78,7 @@
   flex-grow: 0;
 }
 .contentFotoBalck {
-  position: absolute;
+  /* position: absolute; */
   z-index: -1;
   top: 64px;
   left: -16px;
