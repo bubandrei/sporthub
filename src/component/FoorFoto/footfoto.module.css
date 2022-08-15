@@ -10,30 +10,23 @@
   object-fit: cover;
 }
 .home {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
   height: 580px;
-  /* background-color: brown; */
 }
 .homeContent {
   max-width: 640px;
-  /* padding: 250px 640px 190px 640px; */
 }
 .homeHead {
   position: absolute;
   max-width: 71px;
   height: 14px;
   left: 34%;
-  bottom: 294px;
-
-  font-family: "Roboto Flex";
+  top: 250px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117%;
   color: #ffffff;
 }
 .homeText {
@@ -41,13 +34,10 @@
   max-width: 640px;
   height: 109px;
   left: 34%;
-  bottom: 180px;
-
-  font-family: "Roboto Flex";
+  top: 310px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 112%;
-
-  color: #ffffff;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 125%;
+  color: rgba(255, 255, 255, 0.6);
 }

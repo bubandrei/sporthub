@@ -43,13 +43,11 @@ const Social = () => {
         <div className={style.headSocial}>Подписка</div>
         <div className={style.blockBlack}>
           <div className={style.wrapInpBtn}>
-            <span>
-              <input
+            <input
                 className={style.formInput}
                 type="text"
                 placeholder="Введите ваш email"
               />
-            </span>
             <button className={style.btn}><span className={style.textBtn}>Подписаться</span> </button>
           </div>
         </div>

@@ -36,17 +36,15 @@ ul {
     position: relative;
     top: 0;
   height: 580px;
-  /* background-color: brown; */
 }
 .homeContent {
     max-width: 640px;
-    /* padding: 250px 640px 190px 640px; */
 }
 .homeHead {
   position: absolute;
-  width: 71px;
+  max-width: 71px;
   height: 14px;
-  left: 640px;
+  left: 34%;
   bottom: 317px;
 
   font-family: "Roboto Flex";
@@ -61,9 +59,9 @@ ul {
 }
 .homeText {
   position: absolute;
-  width: 640px;
+  max-width: 640px;
   height: 109px;
-  left: 640px;
+  left: 34%;
   bottom: 194px;
 
   font-family: "Roboto Flex";

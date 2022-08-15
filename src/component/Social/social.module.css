@@ -52,9 +52,12 @@
   max-width: 460px;
 }
 .formInput{
-    width: 379px;
-    height: 0px;
+    width: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .btn{
     display: flex;
@@ -63,7 +66,7 @@
     align-items: center;
     padding: 0px;
     gap: 10px;
-    width: 201px;
+    width: 25%;
     height: 40px;
     background: #F01B0D;
     box-shadow: 0px 1px 8px rgba(3, 0, 172, 0.1);
@@ -77,6 +80,7 @@
     position: absolute;
     top: 40%;
     width: 100%;
+    
 }
 .textBtn{
 font-style: normal;
