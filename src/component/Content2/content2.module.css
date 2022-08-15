@@ -78,18 +78,18 @@
   flex-grow: 0;
 }
 .contentFotoBalck {
-  position: absolute;
+  position: relative;
   z-index: -1;
-  top: 64px;
+  top: -22px;
   right: 0;
 }
 .articleFoto {
 }
 .blackBack {
   position: absolute;
-  bottom: 0;
+  bottom: 75px;
   padding: 0px 20px 0px 20px;
-  right: 2%;
+  right: 4%;
 }
 .titleContent2 {
   max-width: 600px;
