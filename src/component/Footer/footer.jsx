@@ -8,11 +8,12 @@ import youtube from "../../assets/image/youtube.png";
 import telegram from "../../assets/image/telegram.png";
 import tiktok from "../../assets/image/tiktok.png";
 import twitter from "../../assets/image/twitter.png";
+import group from "../../assets/image/Group.png";
 
 const Footer = () => {
   return (
     <div className={style.container}>
-      <div className={style.firstRow}>
+      <div className={`${style.firstRow} ${style._container}`}>
         <div className={style.logo}><img src={logo} alt="" /></div>
         <div className={style.common}>О проекте </div>
         <div className={style.common}>Обратная связь</div>
@@ -30,7 +31,10 @@ const Footer = () => {
         <p><img src={tiktok} alt="tiktok" /></p>
         <p><img src={twitter} alt="twitter" /></p>
       </div>
-      <div></div>
+      <div className={`${style.thirdRow} ${style._container}`}>
+        <div className={style.date}>© 2022 «Спортхаб»</div>
+        <div><img src={group} alt="group" /><span className={style.madeBy}> Разработка сайта — компания PRAS</span></div>
+      </div>
     </div>
   );
 };

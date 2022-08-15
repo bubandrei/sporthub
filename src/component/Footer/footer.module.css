@@ -1,61 +1,79 @@
 .container {
-    position: relative;
+  position: relative;
   width: 100%;
   height: 265px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #f01b0d;
 }
-.firstRow{
-    display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-    margin: 0px auto;
-    padding-top: 30px;
+._container {
+  max-width: 1400px;
+  margin: 0px auto;
 }
-.logo{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-    transform: matrix(0.98, 0, -0.19, 1, 0, 0);
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
 }
-.common{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.logo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  transform: matrix(0.98, 0, -0.19, 1, 0, 0);
 }
-.support{
-
+.common {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.wrap{
-
+.support {
 }
-.email{
-    font-family: 'Roboto Flex';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
+.wrap {
 }
-.adv{
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
+.email {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
 }
-.secondRow{
-    display: flex;
-    justify-content: center;
-    margin-top: 74px;
+.adv {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }
-.secondRow p:not(:last-child){
-    padding-right: 24px;
-
+.secondRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 74px;
+}
+.secondRow p:not(:last-child) {
+  padding-right: 24px;
+}
+.thirdRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.date {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.madeBy {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
 }
