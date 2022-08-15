@@ -50,3 +50,12 @@ font-size: 16px;
 line-height: 19px;
 color: #FFFFFF;
 }
+.secondRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+}
+.secondRow p:not(:last-child){
+    padding-right: 24px;
+
+}
