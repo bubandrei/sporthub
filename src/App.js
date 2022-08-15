@@ -1,4 +1,5 @@
 import './App.css';
+import BackFoto from './component/BackFoto/backfoto';
 import Content from './component/Content/content';
 import Content2 from './component/Content2/content2';
 import Header from './component/Header/header';
@@ -11,6 +12,7 @@ function App() {
       <Content />
       <News/>
       <Content2/>
+      <BackFoto/>
     </>
 
   );
