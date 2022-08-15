@@ -15,9 +15,6 @@
 ul {
   display: flex;
 }
-/* .headerNav li:not(:last-child){
-    margin-right: 50px;
-} */
 .headerNav {
 }
 .headerNav li + li {
@@ -89,16 +86,12 @@ ul {
 position: absolute;
 bottom: 0;
 width: 100%;
-/* background-color: #F01B0D; */
-
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 0px 160px;
 gap: 50px;
-
-/* position: absolute; */
 height: 60px;
 left: 0px;
 right: 0px;
