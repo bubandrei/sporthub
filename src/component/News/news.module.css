@@ -8,6 +8,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .man {
   box-sizing: border-box;
@@ -68,4 +69,7 @@
     position: absolute;
     left: -30%;
 
+}
+.new{
+  
 }

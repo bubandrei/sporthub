@@ -17,9 +17,9 @@ ul {
 }
 .headerNav {
 }
-.headerNav li + li {
+/* .headerNav li + li {
   margin-left: 50px;
-}
+} */
 .headerNav li {
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ top: 520px;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #F01B0D;
 }
 .bottomMenu li + li {
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 .bottomList{
     height: 16px;
