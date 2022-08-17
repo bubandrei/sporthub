@@ -113,7 +113,8 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: blue;
   width: 100%;
 }
     
