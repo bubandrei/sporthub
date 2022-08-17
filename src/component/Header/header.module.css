@@ -1,5 +1,5 @@
 ._container {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   padding: 0px 15px;
   margin: 0px auto;
 }
@@ -10,12 +10,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 1400px;
+  margin: 0px auto;
 }
 
 ul {
   display: flex;
 }
 .headerNav {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
 }
 /* .headerNav li + li {
   margin-left: 50px;

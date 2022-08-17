@@ -13,7 +13,7 @@ const Header = () => {
               <div className={style.headerLogo}>
                 <img src={logo} alt="LOGO" />
               </div>
-              <nav className={style.headerMenu}>
+              {/* <nav className={style.headerMenu}> */}
                 <ul className={style.headerNav}>
                   <li>
                     <a href="#">Review</a>
@@ -37,7 +37,7 @@ const Header = () => {
                     <a href="#">#######</a>
                   </li>
                 </ul>
-              </nav>
+              {/* </nav> */}
             </div>
           </div>
         </header>
