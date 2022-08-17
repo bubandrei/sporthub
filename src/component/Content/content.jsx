@@ -54,21 +54,22 @@ const Content = () => {
             <img src={foto4} alt="" className={styleContent.articleFoto} />
           </div>
           <div className={styleContent.blackBack}>
-          <p className={styleContent.dateContent}>
-            <span className={styleContent.date2}>09.07.19 |</span>
-            <span className={styleContent.dateFill2}>#Профессиональный_спорт</span>
-          </p>
-          <p className={styleContent.titleContent2}>
-            Японцы лидируют в медальном зачете летней универсиады, белорусы –
-            25-е. Почему так?
-          </p>
-          <p className={styleContent.fillContent2}>
-            И если для «горняков», которые неделей ранее разгромно уступили в
-            Турине тамошним «быкам» 0:5, визит «Торино» в Солигорск —
-            формальность, то от «жёлто-синих»...
-          </p>
+            <p className={styleContent.dateContent}>
+              <span className={styleContent.date2}>09.07.19 |</span>
+              <span className={styleContent.dateFill2}>
+                #Профессиональный_спорт
+              </span>
+            </p>
+            <p className={styleContent.titleContent2}>
+              Японцы лидируют в медальном зачете летней универсиады, белорусы –
+              25-е. Почему так?
+            </p>
+            <p className={styleContent.fillContent2}>
+              И если для «горняков», которые неделей ранее разгромно уступили в
+              Турине тамошним «быкам» 0:5, визит «Торино» в Солигорск —
+              формальность, то от «жёлто-синих»...
+            </p>
           </div>
-
         </div>
         <div className={styleContent.firstArticle}>
           <p className={styleContent.header}></p>

@@ -19,6 +19,7 @@
   margin: 40px 0px 24px 0px;
 }
 .firstArticle {
+  position: relative;
 }
 .dateContent {
   margin-top: 20px;
