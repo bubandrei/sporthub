@@ -116,6 +116,7 @@
   /* color: #FFFFFF; */
   color: blue;
   width: 100%;
+  flex-wrap: wrap;
 }
     
 
