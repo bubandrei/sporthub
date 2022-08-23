@@ -156,4 +156,13 @@
     display: flex;
     justify-content: space-between; */
   }
+  .titleContent {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .fillContent {
+    /* max-height: 75px; */
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
