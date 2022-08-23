@@ -165,6 +165,12 @@ bottom: 144px;
 
   /* color: #ffffff; */
 }
+.bottomMenuWrap{
+  height: 45px;
+}
+.bottomMenu{
+  display: none;
+}
 }
 
 
