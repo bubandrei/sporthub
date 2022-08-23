@@ -118,7 +118,54 @@
   width: 100%;
   flex-wrap: wrap;
 }
-    
+@media only screen and (max-width: 320px){
+  .headerNav li {
+   display: none;
+  }
+  .home {
+  height: 250px;
+}
+.header_row {
+all: initial;
+}
+.headerNav{
+  all: initial;
+}
+.homeContent {
+  max-width: 290px;
+}
+.homeHead {
+
+max-width: 71px;
+height: 14px;
+left: 15px;
+bottom: 144px;
+
+  /* font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff; */
+}
+.homeText {
+  width: 290px;
+  height: 69px;
+  left: 15px;
+  bottom: 65px;
+
+  /* font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 700; */
+  font-size: 20px;
+  line-height: 23px;
+
+  /* color: #ffffff; */
+}
+}
 
 
 
