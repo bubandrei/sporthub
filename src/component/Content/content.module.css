@@ -165,4 +165,8 @@
     font-size: 14px;
     line-height: 18px;
   }
+  .contentFotoBalck {
+    top: -50px;
+    left: 0;
+  }
 }
