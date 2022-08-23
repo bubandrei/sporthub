@@ -169,4 +169,15 @@
     top: -50px;
     left: 0;
   }
+  .titleContent2 {
+    height: 60px;
+    margin: 10px 0px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .fillContent2 {
+    height: 90px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
