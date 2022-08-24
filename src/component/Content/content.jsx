@@ -49,7 +49,7 @@ const Content = () => {
       </section>
       <section className={styleContent._container}>
         <div className={styleContent.firstArticle}>
-          <p className={styleContent.header}></p>
+          <p className={`${styleContent.header} ${styleContent.headerNull}`}>3452354234</p>
           <div className={styleContent.contentFotoBalck}>
             <img src={foto4} alt="" className={styleContent.articleFoto} />
           </div>
@@ -72,7 +72,7 @@ const Content = () => {
           </div>
         </div>
         <div className={styleContent.firstArticle}>
-          <p className={styleContent.header}></p>
+          <p className={`${styleContent.header} ${styleContent.headerNull}`}>333</p>
           <div className={styleContent.contentFoto}>
             <img src={foto2} alt="" className={styleContent.articleFoto} />
           </div>
