@@ -180,11 +180,13 @@
     font-size: 14px;
     line-height: 18px;
   }
-  /* .headerNull{
-    display: none;
-    position: absolute;
-  } */
+  .headerNull{
+   margin-top: 40px;
+  }
   .header{
     height: 0px;
+  }
+  .headerNullTwo{
+    margin-top: -50px;
   }
 }
