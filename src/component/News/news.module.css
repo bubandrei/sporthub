@@ -3,6 +3,7 @@
   padding: 0px 15px;
   margin: 80px auto;
 }
+
 .people {
   display: flex;
   position: relative;
@@ -10,6 +11,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .man {
   box-sizing: border-box;
   max-width: 300px;
@@ -19,12 +21,14 @@
   order: 0;
   flex-grow: 0;
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 .imgFoto {
-    position: relative;
+  position: relative;
 }
+
 .name {
   max-width: 209px;
   height: 21px;
@@ -38,6 +42,7 @@
   text-align: center;
   color: #000000;
 }
+
 .prof {
   max-width: 188px;
   height: 13px;
@@ -52,6 +57,7 @@
   text-transform: uppercase;
   color: #000000;
 }
+
 .text {
   height: 75px;
   left: 0px;
@@ -65,11 +71,17 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
 }
-.icon{
-    position: absolute;
-    left: -30%;
+
+.icon {
+  position: absolute;
+  left: -30%;
 
 }
-.new{
-  
+
+.new {}
+
+@media only screen and (max-width: 320px) {
+  .phoneVersion {
+    display: none;
+  }
 }

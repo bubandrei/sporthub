@@ -20,7 +20,7 @@ const News = () => {
             Сергей Корниленко станет играющим тренером «Крыльев советов»
           </div>
         </div>
-        <div className={styleNews.man}>
+        <div className={`${styleNews.man} ${styleNews.phoneVersion}`}>
           <div className={styleNews.imgFoto}>
             <img src={foto5} alt=""  className={styleNews.icon}/>
             <img src={foto7} alt="" />
@@ -31,7 +31,7 @@ const News = () => {
             Сергей Корниленко станет играющим тренером «Крыльев советов»
           </div>
         </div>
-        <div className={styleNews.man}>
+        <div className={`${styleNews.man} ${styleNews.phoneVersion}`}>
           <div className={styleNews.imgFoto}>
             <img src={foto5} alt=""  className={styleNews.icon}/>
             <img src={foto8} alt="" />
@@ -42,7 +42,7 @@ const News = () => {
             Сергей Корниленко станет играющим тренером «Крыльев советов»
           </div>
         </div>
-        <div className={styleNews.man}>
+        <div className={`${styleNews.man} ${styleNews.phoneVersion}`}>
           <div className={styleNews.imgFoto}>
             <img src={foto5} alt=""  className={styleNews.icon}/>
             <img src={foto6} alt="" />
