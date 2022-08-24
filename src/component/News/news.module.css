@@ -84,4 +84,8 @@
   .phoneVersion {
     display: none;
   }
+  .wrap {
+    padding: 0px 15px;
+    margin: 50px auto 10px auto;
+  }
 }
