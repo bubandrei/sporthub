@@ -150,6 +150,7 @@
   ._container {
     max-width: 320px;
     flex-wrap: wrap;
+    padding: 0px;
     /* padding: 0px 15px;
     margin: 0px auto;
     position: relative;
@@ -191,5 +192,8 @@
   }
   .blackBack {
     bottom: 100px;
+  }
+  .mobileContainer{
+    padding: 0px 15px;
   }
 }
