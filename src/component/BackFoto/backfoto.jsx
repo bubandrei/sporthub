@@ -5,9 +5,9 @@ import style from "./backfoto.module.css";
 const BackFoto = () => {
   return (
     <div className={style.home}>
-      <div className={style.home_bg_img}>
+      {/* <div className={style.home_bg_img}> */}
         <img src={foto10} className={style.imgBack} alt="" />
-      </div>
+      {/* </div> */}
       <div className={style.container}>
         <div className={style.homeContent}>
           <p className={style.homeHead}>#болельщикам</p>
