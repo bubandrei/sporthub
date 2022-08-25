@@ -17,10 +17,8 @@ const Footer = () => {
         <div className={style.logo}><img src={logo} alt="" /></div>
         <div className={style.common}>О проекте </div>
         <div className={style.common}>Обратная связь</div>
-        <div className={style.wrap}>
           <p className={style.adv}>Реклама:</p>
           <p className={style.email}>ads@sporthub.news</p>
-        </div>
       </div>
       <div className={style.secondRow}>
         <p><img src={vk} alt="vk" /></p>
