@@ -4,17 +4,21 @@
   margin: 60px auto;
   justify-content: space-between;
 }
-.socialWrap{
-    width: 100%;
+
+.socialWrap {
+  width: 100%;
 }
+
 .social {
   display: flex;
   flex-direction: column;
 }
+
 .email {
   display: flex;
   flex-direction: column;
 }
+
 .blockRed {
   max-width: 680px;
   height: 180px;
@@ -23,8 +27,9 @@
   display: flex;
   justify-content: center;
 }
+
 .blockBlack {
-    position: relative;
+  position: relative;
   max-width: 680px;
   height: 180px;
   background: #000000;
@@ -33,6 +38,7 @@
   justify-content: center; */
 
 }
+
 .headSocial {
   padding-bottom: 24px;
   font-style: normal;
@@ -43,6 +49,7 @@
   text-transform: uppercase;
   color: #000000;
 }
+
 .wrapIcons {
   display: flex;
   justify-content: center;
@@ -51,43 +58,79 @@
   gap: 50px;
   max-width: 460px;
 }
-.formInput{
-    width: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+.formInput {
+  width: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-    width: 25%;
-    height: 40px;
-    background: #F01B0D;
-    box-shadow: 0px 1px 8px rgba(3, 0, 172, 0.1);
-    border-radius: 100px;
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 25%;
+  height: 40px;
+  background: #F01B0D;
+  box-shadow: 0px 1px 8px rgba(3, 0, 172, 0.1);
+  border-radius: 100px;
 
 }
-.wrapInpBtn{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    
+
+.wrapInpBtn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+
 }
-.textBtn{
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: #FFFFFF;
+
+.textBtn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    flex-wrap: wrap;
+    margin: 0px auto;
+  }
+
+  .headSocial {
+    padding: 30px 15px 14px 15px;
+  }
+
+  .wrapIcons {
+    flex-wrap: wrap;
+    padding: 0px 58px;
+    max-width: 320px;
+    gap: 21px;
+    align-content: center;
+  }
+  .wrapInpBtn {
+    flex-direction: column;
+    align-items: center;
+    top:40px;
+  }
+  .formInput {
+    width: 200px;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+  }
+  .btn {
+    width: 200px;
+  }
 }
