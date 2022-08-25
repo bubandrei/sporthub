@@ -41,3 +41,26 @@
   line-height: 125%;
   color: rgba(255, 255, 255, 0.6);
 }
+@media only screen and (max-width: 320px){
+  .home {
+    height: 276px;
+  }
+  .homeHead {
+    max-width: 71px;
+    height: 14px;
+    left: 28px;
+    top: 100px;
+    font-size: 20px;
+    line-height: 23px;
+
+  }
+  .homeText {
+    max-width: 320px;
+    height: 109px;
+    left: 28px;
+    top: 132px;
+    font-size: 14px;
+    line-height: 18px;
+
+  }
+}
