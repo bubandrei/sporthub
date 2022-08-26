@@ -88,4 +88,16 @@
     padding: 0px 15px;
     margin: 50px auto 10px auto;
   }
+  
+.people {
+  justify-content: center;
+
+}
+.prof {
+  height: 30px;
+}
+.text {
+  margin: 10px 0px 80px 0px;
+}
+
 }
