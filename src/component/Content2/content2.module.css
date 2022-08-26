@@ -145,7 +145,7 @@
   order: 1;
   flex-grow: 0;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
   ._container {
     max-width: 320px;
     flex-wrap: wrap;

@@ -89,7 +89,7 @@
   color: #ffffff;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
   .container {
     height: 500px;
   }

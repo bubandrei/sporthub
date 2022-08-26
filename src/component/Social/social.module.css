@@ -103,7 +103,7 @@
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
   .container {
     flex-wrap: wrap;
     margin: 0px auto;
