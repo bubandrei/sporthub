@@ -98,7 +98,9 @@
   margin: 10px 0px;
 }
 .text {
-  margin: 20px 0px 5px 0px;
+  margin-top: 0px;
 }
-
+.name{
+  height: 30px;
+}
 }
